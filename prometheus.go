@@ -138,9 +138,9 @@ var (
 		group{name: "main", prefixes: []string{
 			"main.",
 		}},
-		group{name: "dyncounter",prefix: []string{
-			"dyncounter."
-		}};
+		group{name: "dyncounter", prefixes: []string{
+			"dyncounter.",
+		}},
 	}
 )
 
@@ -235,7 +235,7 @@ func cleanBackendName(name string) string {
 	if strings.HasPrefix(name, "reload_") {
 		dot := strings.Index(name, ".")
 		if dot != -1 {
-			name = name[dot + 1:]
+			name = name[dot+1:]
 		}
 	}
 
