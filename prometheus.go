@@ -135,6 +135,12 @@ var (
 		group{name: "main", prefixes: []string{
 			"main.",
 		}},
+		group{name: "main", prefixes: []string{
+			"main.",
+		}},
+		group{name: "dyncounter",prefix: []string{
+			"dyncounter."
+		}};
 	}
 )
 
