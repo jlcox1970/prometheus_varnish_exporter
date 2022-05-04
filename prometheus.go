@@ -136,7 +136,7 @@ var (
 			"dyncounter.",
 		}},
 		group{name: "requests", prefixes: []string{
-			"requests.",
+			"main.requests.",
 		}},
 		group{name: "main", prefixes: []string{
 			"main.",
