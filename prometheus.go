@@ -132,14 +132,14 @@ var (
 		group{name: "mgt", prefixes: []string{
 			"mgt.",
 		}},
-		group{name: "main", prefixes: []string{
-			"main.",
-		}},
-		group{name: "main", prefixes: []string{
-			"main.",
-		}},
 		group{name: "dyncounter", prefixes: []string{
-			"main.dyncounter.",
+			"dyncounter.",
+		}},
+		group{name: "requests", prefixes: []string{
+			"requests.",
+		}},
+		group{name: "main", prefixes: []string{
+			"main.",
 		}},
 	}
 )
