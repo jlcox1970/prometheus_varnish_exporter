@@ -139,7 +139,7 @@ var (
 			"main.",
 		}},
 		group{name: "dyncounter", prefixes: []string{
-			"dyncounter.",
+			"main.dyncounter.",
 		}},
 	}
 )
